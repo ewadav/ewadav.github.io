@@ -16,18 +16,15 @@ body {
 	padding-top: 15px;
 }
 
-.slide-animation-setup	{
-	-webkit-transition: .5s linear all;
-	-moz-transition: .5s linear all;
-	-o-transition: .5s linear all;
-	transition: .5s linear all;
-	left: 100%;
-	opacity: 0;
+#container	{
+	height: 3000px;
+	width: 50%;
+	position: center;
 }
 
-.slide-animation-setup.slide-animation-start	{
-	left: 0;
-	opacity: 1;
+#footer	{
+	height: 140px;
+	border-top: 1px solid #A0A0A0;
 }
 
 
