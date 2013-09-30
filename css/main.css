@@ -46,3 +46,7 @@ body {
 .row-fluid {
     border-top: 
 }
+
+.affix {
+  z-index: 3;
+}
