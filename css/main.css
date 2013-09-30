@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+
 .background {
     background: url("../img/water.jpg");
     width: 100%;
@@ -18,4 +20,25 @@
   top: 75%;
   z-index: 2;
   padding: 30px;
+}
+
+.title {
+    padding-top: 0px;
+    margin-top: 5px;
+    font: 200 60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.subtitle {
+  color: #000;
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.2);
+}
+
+body {
+    font: 16px 'Open Sans', sans-serif;
+    font-weight: 300;
 }
