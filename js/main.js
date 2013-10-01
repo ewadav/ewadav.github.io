@@ -4,7 +4,7 @@ $(window).on('scroll', function () {
     var scrollTop     = $(window).scrollTop(),
         elementOffset = sidebar.offset().top,
         distance      = (elementOffset - scrollTop);
-    if(distance < 10) {
+    if(distance < 10 && !sidebar.hasClass('sticky')) {
     	sidebar.addClass('sticky');
     }else{
     	sidebar.removeClass('sticky');
