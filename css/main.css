@@ -41,3 +41,18 @@ body {
     font: 16px 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
+a {
+  font: 16px 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.nav-list .active  a {
+  background-color: black;
+}
+
+.nav-list li a:hover {
+  background-color: black;
+  color: white;
+}
