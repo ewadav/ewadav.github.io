@@ -10,8 +10,7 @@
     left: 0;
 }
 
-#container {
-  width: 100%;
+.container-fluid {
   overflow: hidden;
   background: #f0f0f0;
   background: rgba(255,255,255,0.8);
