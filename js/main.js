@@ -6,7 +6,7 @@ $(window).on('scroll', function () {
         distance      = (elementOffset - scrollTop);
     if(distance < 10 && !sidebar.hasClass('sticky')) {
     	sidebar.addClass('sticky');
-    }else{
+    }else if (distance > 10) {
     	sidebar.removeClass('sticky');
     }
 });
