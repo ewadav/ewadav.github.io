@@ -61,3 +61,7 @@ a {
   position: fixed;
   top: 10px;
 }
+
+section {
+  border-top: 1px solid rgba(255,255,255,0.9);
+}

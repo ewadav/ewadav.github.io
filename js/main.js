@@ -1,5 +1,5 @@
 
-$(window).on('scroll', function () {
+/* $(window).on('scroll', function () {
     var sidebar = $('.left-nav');
     var scrollTop     = $(window).scrollTop(),
         elementOffset = sidebar.offset().top,
@@ -9,4 +9,4 @@ $(window).on('scroll', function () {
     }else if (distance > 10) {
     	sidebar.removeClass('sticky');
     }
-});
+}); */
