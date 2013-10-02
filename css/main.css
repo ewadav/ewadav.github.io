@@ -79,12 +79,16 @@ section {
 }
 
 /* solves fencepost section borders */
-section:last-child{
+section:last-child {
   border:none;
 }
 
 footer {
   border-top: 1px solid rgba(255,255,255,0.9);
+}
+
+footer h4 {
+  font: 200 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h2 {
