@@ -76,7 +76,6 @@ a {
 
 section {
   border-bottom: 1px solid rgba(255,255,255,0.9);
-  display: none;
 }
 
 /* solves fencepost section borders */
@@ -92,6 +91,10 @@ section:first-child {
 
 footer {
   border-top: 1px solid rgba(255,255,255,0.9);
+}
+
+.section-content {
+  display: none;
 }
 
 footer h4 {

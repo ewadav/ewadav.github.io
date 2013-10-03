@@ -4,7 +4,8 @@ $(window).on('scroll', function () {
     var scrollTop     = $(window).scrollTop(),
         elementOffset = sidebar.offset().top,
         distance      = (elementOffset - scrollTop);
-    if(distance < 300 && !$('#overview').is(":visible")) {
-    	$('#overview').show("slide");
+    if(distance < 200 && !$('.section-content').is(":visible")) {
+    	$('.section-content').show("slide")
+    	$('.bs-docs-sidebar').scrollspy();
     }
 }); 
