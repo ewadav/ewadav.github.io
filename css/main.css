@@ -105,9 +105,15 @@ h2 {
   font: 200 40px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.affix {
+  top: 20px;
+}
+
 /*.right-container {
   display: none;
 } */
+
+
 
 /* Css text animations */
 
