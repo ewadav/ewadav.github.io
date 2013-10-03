@@ -76,12 +76,19 @@ a {
 
 section {
   border-bottom: 1px solid rgba(255,255,255,0.9);
+  display: none;
 }
 
 /* solves fencepost section borders */
 section:last-child {
   border:none;
 }
+
+/* controls the margin of the first section 
+section:first-child {
+  margin-top: 55px;
+}
+*/
 
 footer {
   border-top: 1px solid rgba(255,255,255,0.9);
