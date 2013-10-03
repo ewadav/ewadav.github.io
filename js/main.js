@@ -1,5 +1,5 @@
 
-$(window).on('scroll', function () {
+/* $(window).on('scroll', function () {
     var sidebar = $('.main-title');
     var scrollTop     = $(window).scrollTop(),
         elementOffset = sidebar.offset().top,
@@ -9,4 +9,4 @@ $(window).on('scroll', function () {
     	//$('.right-container').show();
     	//$('.bs-docs-sidebar').scrollspy('refresh');
     }
-}); 
+}); */
