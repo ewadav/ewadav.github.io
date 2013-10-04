@@ -10,3 +10,16 @@
     	//$('.bs-docs-sidebar').scrollspy('refresh');
     }
 }); */
+
+
+$('.main-container').scroll(function(){
+        alert('balls');
+        var itemOffset = Math.abs($(this).offset().top);
+        var height = $('.main-container').height();
+        if (itemOffset > 0 && itemOffset < height) {
+             alert($(this).attr('id'));
+             $('.nav-content').addClass('affix');
+        } else {
+        	$('.nav-content').removeClass('affix');
+        }
+});

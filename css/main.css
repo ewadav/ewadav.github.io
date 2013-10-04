@@ -69,10 +69,6 @@ a {
   text-shadow: none;
 }
 
-.sticky {
-  position: fixed;
-  top: 10px;
-}
 
 section {
   border-bottom: 1px solid rgba(255,255,255,0.9);
@@ -107,6 +103,7 @@ h2 {
 
 .affix {
   top: 20px;
+  position: fixed;
 }
 
 /*.right-container {
