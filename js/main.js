@@ -12,7 +12,7 @@
 }); */
 
 
-$('.main-container').scroll(function(){
+$(window).scroll(function(){
         alert('balls');
         var itemOffset = Math.abs($(this).offset().top);
         var height = $('.main-container').height();
