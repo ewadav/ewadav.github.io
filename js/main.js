@@ -12,7 +12,7 @@
 }); */
 
 
-$(window).scroll(function(){
+ /* $(window).scroll(function(){
         alert('balls');
         var itemOffset = Math.abs($(this).offset().top);
         var height = $('.main-container').height();
@@ -22,4 +22,18 @@ $(window).scroll(function(){
         } else {
         	$('.nav-content').removeClass('affix');
         }
-});
+}); */
+
+
+/*
+v1ar navContent = $('.nav-content');
+var distance = navContent.offset().top,
+$window = $(window);
+
+$window.scroll(function() {
+    if ($window.scrollTop() >= distance && !navContent.hasClass('affix')) {
+        navContent.addClass('affix');
+    } else {
+        navContent.removeClass('affix');
+    }
+}); */
