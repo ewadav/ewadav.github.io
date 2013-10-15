@@ -5,7 +5,6 @@ var didScroll = false;
 $(document).ready(function() {
     var navContent = $('.nav-content');
     initialDistance = navContent.offset().top - $(window).scrollTop();
-    console.log(initialDistance);
 });
 
 
