@@ -89,7 +89,7 @@ section {
 /* solves fencepost section borders */
 section:last-child {
   border:none;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 /* controls the margin of the first section 
